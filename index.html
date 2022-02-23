@@ -4,11 +4,11 @@
     <!-- Used by Keyboard-->
     <meta charset="utf-8">
 
-    <title>WHO AM I</title>
+    <title>Who Am I</title>
 
     <!-- Used by Google Search -->
     <meta name="author" content="Dhiya Shah"
-    <meta name="description" content="Getting to know a little bit about ME!">
+    <meta name="description" content="Getting To Know ME!">
     <meta name="keywords" content="Project, about me, HTML, learning">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
@@ -24,33 +24,53 @@
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
 
-    <style> div {border: thin dotted red;} </style>
+    <style>
+      div {border: thin dotted red;}
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        border: 1px solid red;
+      }
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+      .main {
+        width: 75%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+  </style>
 
   </head>
   <body>
     <header>
       <h1 style="font-size:5.5vw">Dhiya Shah</h1>
       <h2 style="font-size:3.5vw">Get To Know ME!</h2>
-    </header>
-    <nav><h3>Navigation with no viewport in a h3-tag</h3></nav>
-    <aside><p>This is the aside space with no viewport in a p-tag</p></aside>
-    <section> <h3 style="font-size:2.5vw">Section 1</h3>
+    <div><header class="header">INDEX File as Flexbox, 2-column</header></div>
+    <div><aside class="header"><p>This is the aside space with no viewport in a p-tag</p></aside></div>
+    <div><nav class="menu"><h3>Navigation with no viewport in a h3-tag</h3></nav></div>
+    <div><section class="main"> <h3 style="font-size:2.5vw">Section 1</h3>
       <article>
         <p style="font-size:1vw">Here are hyperlinks to the mandatory Experiment Pages</p>
         <!-- See the HTML .txt document for a summary-->
         <ol>
-          <li style="font-size:1vw">Quick Overview About ME!, <a href="childPages/Quick Overview About ME!.html" target="_blank">Who is Dhiya Shah</a>
+          <li style="font-size:1vw">Quick Overview About ME, <a href="childPages/Quick Overview About ME!.html" target="_blank">Who is Dhiya Shah</a>
           <li style="font-size:1vw">Footer Blockquote Example, <a href="childPages/Footer Blockquote Example.html" target="_blank">Click Here</a>
           <li style="font-size:1vw">Template Exemplar, <a href="childPages/Template Exemplar.html" target="_blank">Click Here</a>
           <li style="font-size:1vw">Headings and Paragraph Tags, <a href="childPages/Headings and Paragraph Tags.html" target="_blank">Click Here</a>
           <li style="font-size:1vw">Subscript and Superscript Tags, <a href="childPages/Subscript and Superscript Tags.html" target="_blank">Click Here</a>
           <li style="font-size:1vw">Image Lesson, <a href="childPages/Image Lesson.html" target="_blank">Click Here</a>
           <li style="font-size:1vw">Laying out DIVs (using HTML Boilerplate) <a href="childPages/Laying out DIVs.html" target="_blank">Click Here</a>
-          <li style="font-size:1vw">What this index page might look like with Flexbox <a href="childPages/Flexbox Index 2-column.html" target="_blank">Click Here</a>
-          <li style="font-size:1vw">What this index page might look like with Flexbox <a href="childPages/Flexbox Index 3-column.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw">What this index page might look like with Flexbox, 2-column <a href="childPages/Flexbox Index 2-column.html" target="_blank">Click Here</a>
+          <li style="font-size:1vw">What this index page might look like with Flexbox, 3-column <a href="childPages/Flexbox Index 3-column.html" target="_blank">Click Here</a>
         </ol>
       </article>
-    </section>
+    </section></div>
   </body>
   <footer>
     <blockquote cite="https://www.quotespedia.org/authors/n/nelson-mandela/a-winner-is-a-dreamer-who-never-gives-up-nelson-mandela/"><!-- Date Accessed 20220208--> </blockquote>
